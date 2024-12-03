@@ -1,0 +1,12 @@
+html {
+    font-size: 16px; /* 1 rem = 16px */
+  }
+.parent {
+    font-size: 20px; /* 1 em = 20px */
+}
+.child {
+    font-size: 2em; /* 2 * parent's font-size (20px) = 40px */
+}
+.rem-example {
+    font-size: 2rem; /* 2 * root font-size (16px) = 32px */
+}

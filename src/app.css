@@ -1,12 +1,15 @@
-html {
-    font-size: 16px; /* 1 rem = 16px */
+body {
+    margin: 0
+}
+
+.full-height {
+    height: 100vh; /* Full height of the viewport */
+    background-color: lightblue;
   }
-.parent {
-    font-size: 20px; /* 1 em = 20px */
-}
-.child {
-    font-size: 2em; /* 2 * parent's font-size (20px) = 40px */
-}
-.rem-example {
-    font-size: 2rem; /* 2 * root font-size (16px) = 32px */
-}
+  .half-width {
+    height: 50vw; /* Half the width of the viewport */
+    background-color: coral;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }

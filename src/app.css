@@ -1,15 +1,16 @@
 body {
-    margin: 0
+    margin: 0;
+    box-sizing: 'border-box';
 }
 
 .full-height {
-    height: 100vh; /* Full height of the viewport */
+    height: 100vh;
     background-color: lightblue;
   }
   .half-width {
-    height: 50vw; /* Half the width of the viewport */
+    height: 50vh;
     background-color: coral;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
   }
